@@ -7,4 +7,7 @@ import{UserFind} from '../userfind';
 export class UserserviceService {
 
   constructor() { }
+  getuser(){
+    return user;
+  }
 }
