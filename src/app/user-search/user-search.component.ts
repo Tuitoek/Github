@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {User} from '../userfind.ts'
 
 @Component({
   selector: 'app-user-search',
