@@ -15,6 +15,9 @@ export class UserSearchComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.http.get("https:api.github.com/user/repos?access_token=d67a16a292d55ec18ec7c36b4956341eaeaba132").subscribe(data=>{
+
+    })
   }
 
 }
