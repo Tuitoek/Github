@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import{Repo} from '../repofind';
 @Component({
   selector: 'app-repo-search',
   templateUrl: './repo-search.component.html',
